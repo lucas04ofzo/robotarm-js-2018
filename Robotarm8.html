@@ -13,13 +13,13 @@
             
             // Jou instructies volgen hier
             robotArm.moveRight();
-            for(var a = 0; a < 7; a++){
+            for(var i=0;i<7;i++){
                 robotArm.grab();
-                for(var b = 0; b < 8; b++){
+                for(var a=0;a<8;a++){
                     robotArm.moveRight();
                 }
                 robotArm.drop();
-                    for(var c = 0; c < 8; c++){
+                    for(var b=0;b<8;b++){
                         robotArm.moveLeft();
                     }
             }
